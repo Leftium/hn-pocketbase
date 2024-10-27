@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsup ./src/entries/*.ts -d ./dist",
-    "dev": "chokidar './src/hooks/**' -c 'yarn build:hooks' --initial"
+    "watch": "chokidar ./src/entries/** -c \"pnpm build\" --initial",
+    "dev": "pocketbase serve --hooksDir=./dist"
   },
   "dependencies": {
     "@swc/core": "^1.7.40",

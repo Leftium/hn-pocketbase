@@ -8,3 +8,5 @@ Features:
 - Include your own libraries in hook handlers
 - Compile everything to goja-compatible JS
 - Typescript typings for goja and PocketBase environments
+
+[Useful guide/instructions](https://github.com/pockethost/pockethost/discussions/291)
